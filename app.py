@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configurar as credenciais do Google
 CLIENT_ID = '519999793068-baonchpsq8sodum56mkmo6lng0uarl50.apps.googleusercontent.com'
 CLIENT_SECRET = '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'
-REDIRECT_URI = 'https://rodrigobbrandao.github.io/rbbapp/'
+REDIRECT_URI = 'https://rodrigobbrandao.github.io/rbbapp'
 
 # Configurar o fluxo de autenticação
 flow = Flow.from_client_secrets_file(
